@@ -1,0 +1,26 @@
+{
+  "classes": [
+    "Healthy Leaves",
+    "Powdery Mildew",
+    "Downey Mildew",
+    "Bacterial Rot"
+  ],
+  "img_size": 224,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "weights_dir": "weights",
+  "weights": {
+    "ResNet-18": "ResNet_18.pth",
+    "EfficientNet-B0": "EfficientNet_B0.pth",
+    "AGCTNet": "AGCTNet.pth"
+  },
+  "default_model": "ResNet-18"
+}
